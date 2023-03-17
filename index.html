@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Transparencia y rendición de cuentas</title>
+    <link rel="stylesheet" href="style.css" type="text/css">
+    
+</head>
+<body>
+    <script>function VerificarFolio() {
+        if (document.getElementById("ingreso").value=="VAPS") {
+            window.open("https://drive.google.com/drive/u/0/folders/1-D-Uj1O2ZijCTTAybkRBhrVxsVG6GBOK");
+
+        }
+        else if (document.getElementById("ingreso").value=="VAP") {
+            window.open("https://drive.google.com/drive/folders/1dfHpO7mALjvWnsEntVVl284RBE0ZfhL_?usp=share_link");
+
+        }
+    }
+    </script>
+<div id="ow">
+    ESC. PROFESOR MANUEL HINOJOSA GILES <br>
+    C.C.T 15EPR2551N <br>
+    TURNO MATUTINO <br>
+    Ciclo escolar 2022-2023
+</div>
+<img src="Image.png" width="379">
+<label>Ingresar folio</label>
+<input id="ingreso" type="text">
+<button onclick="VerificarFolio()">Haga click</button>
+<p id= "mensaje"></p>
+</body>
+</html>
